@@ -1,0 +1,39 @@
+.navbar {
+  background: rgb(0, 58, 218);
+  color: #fff;
+}
+.navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 8px;
+  align-items: baseline;
+}
+.navbar > ul > li {
+  list-style: none;
+}
+.navbar > ul > li > a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar > ul > input {
+  color: rgb(204, 204, 204);
+}
+.navbar > ul > input:focus {
+  border: 3px solid aqua;
+  color: #333;
+  outline: none;
+}
+.navbar a:hover {
+  background: rgb(81, 156, 255);
+  padding: 3px 7px;
+}
+.currentPage {
+  background: rgb(120, 150, 211);
+  padding: 3px 7px;
+}
+.currentPage:hover {
+  background: rgb(81, 156, 255);
+  padding: 0;
+}

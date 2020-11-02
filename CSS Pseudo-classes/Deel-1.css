@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: futura;
+}
+.lol {
+  font-size: 19px;
+  font-family: futura;
+}
+.opdrachtDeel-1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: #afafaf;
+  color: #fff;
+  padding: 1%;
+  margin: 15% 0;
+}
+.opdrachtDeel-1 input {
+  color: #afafaf;
+  border: 1px #333 solid;
+}
+.opdrachtDeel-1 a,
+input {
+  border: 1px #fff solid;
+  padding: 1%;
+}
+.opdrachtDeel-1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+.link1:hover {
+  color: rgb(97, 179, 255);
+  background: #fff;
+  font-weight: 500;
+}
+.link2:active {
+  color: rgb(228, 26, 26);
+  font-style: italic;
+  background: #fff;
+}
+.link3:visited {
+  color: rgb(255, 243, 77);
+}
+.lol:focus {
+  color: #71d300;
+  font-size: 20px;
+}
